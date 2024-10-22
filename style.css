@@ -1,0 +1,31 @@
+.logo{
+    width: 50px;
+}
+.nav-links{
+    list-style-type: none;
+    display: flex;
+    gap: 1em;
+}
+.nav-links li a{
+    text-decoration: none;
+    color: black;
+
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.btn button{
+    background-color: #a1252f;
+    border: none;
+   height: 30px;
+   color: white;
+   border-radius: .2em;
+}
+.btn button:hover{
+    background-color: #760a13;
+    cursor: pointer;
+}
